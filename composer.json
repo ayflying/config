@@ -1,0 +1,22 @@
+{
+  "name": "ayflying/config",
+  "description": "环境配置预加载",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ayflying",
+      "email": "ay@7cuu.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2",
+    "topthink/think-container": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ayflying\\": "src/"
+    }
+  }
+}
